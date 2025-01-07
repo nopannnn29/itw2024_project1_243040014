@@ -199,7 +199,7 @@ section.active {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
     padding: 1rem 3rem;
     background: var(--main-color);
     border: .2rem solid var(--main-color);
@@ -208,7 +208,8 @@ section.active {
     font-size: 1.6rem;
     color: var(--bg-color);
     font-weight: 500;
-    transition: .5s;
+    transition: 0.3s;
+    
 }
 
 .btn:hover {
@@ -222,14 +223,15 @@ section.active {
 }
 
 .home-detail .btn-sci .sci a {
-    display: inline-flex;
+    display: inline-block;
     padding: .8rem;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
     margin: 0 .8rem;
-    transition: .5s;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .home-detail .btn-sci .sci a:hover {
@@ -314,7 +316,7 @@ section.active {
     background: var(--second-bg-color);
     border: .2rem solid var(--second-bg-color);
     border-radius: 1rem;
-    transition: .5s;
+    transition: 1.5s;
 }
 
 .services-container .services-box:hover {
